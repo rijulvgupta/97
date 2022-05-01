@@ -9,16 +9,16 @@ while chances <5:
 guess = int(imput("enter your guess:-"))
 
 if guess == number:
-print (" Congrats You Won!!")
-break
+  print (" Congrats You Won!!")
+  break
 
 elif guess< number:
-print (" your guess was too low, guess a number higher than", guess)
+  print (" your guess was too low, guess a number higher than", guess)
 
 else:
-print (" your guess was too high, guess a number lower than", guess)
+  print (" your guess was too high, guess a number lower than", guess)
 
 chances+ = 1
 
 if chances >5:
-print(" You Lose, the number is", number)
+  print(" You Lose, the number is", number)
