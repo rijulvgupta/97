@@ -1,6 +1,6 @@
 import random
 print("number guessing game")
-number=random.randit(1, 9)
+number=random.randint(1, 9)
 chances=0
 print (" guess a number between (1 and 9)")
 while chances <5:
