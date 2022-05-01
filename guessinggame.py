@@ -20,5 +20,5 @@ print (" your guess was too high, guess a number lower than", guess)
 
 chances+ = 1
 
-if not chances <5:
+if chances >5:
 print(" You Lose, the number is", number)
